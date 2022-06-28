@@ -117,6 +117,16 @@ comprendre la containerisation à un niveau micro. Puis à un iveau macro : com
 Voir la vidéo :
 https://levitt.fr/docker.mp4 https://levitt.fr/kub.mp4
 
+# J2
+## lancement de supermario à partir d'une image
+```console
+docker pull pengbai/docker-supermario
+docker run -d -p 8600:8080 pengbai/docker-supermario
+```
+Puis lancer dans le navigateur:
+```console
+localhost:8600
+```
 
 
 
