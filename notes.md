@@ -129,4 +129,36 @@ localhost:8600
 ```
 
 
+# J3
+## Tuto PgAdmin et Postgresql pour les 1A
+voir mail Rémi
 
+## Explications Olivier
+on s'en fout du multiconteneur. On va faire directement avec Kubernetes. On laisse tomber Docker compose car son équivalent c'est Kubernetes. On peut lancer individuellement des conteneurs, et puis les faire parler entre eux. Mais assez vite, on les orchestre en une seule ligne. Pour faire ça, les premières solutions c'était avec Docker compose où on décrit toute la stack. ON écrit docker compose, puis docker compose up.
+Mais ça reste mono-machine. On a d'autres ambitions. 
+
+on peut aussi créer ses propres images. Les enjeux: 
+- la syntaxe du dockerfile
+- la publication d'image. Notion de registre docker et de push d'image. 
+
+=> quête secondaire : construire ma propre image et la publier. 
+
+## L'orchestration
+on fait une session l'après-midi, et on généralise: au lieu de faire tourner sur une machine, on fait tourner sur plusieurs. 
+### le concept de volume
+
+le conteneur a un système de fichier qui est lui ets propre. (à voir avec docker exec)
+Le conteneur repartira toujours du même état. Mais il y a des moments où on a envie de sauvegarder des données.
+
+On va identifier de façon explicite les donneés qu'on veut sauvegarder et on va sauvegarder ces données et uniquement ces données. 
+ex: sur un jeu, j'installe le jeu, je sauvegarde. Je désinstalle mais je garde la svg. Si je réinstalle le jeu je peux repartir d'où j'étais. 
+ça prouve bien que le cycle de vie du conteneur et de la donnée est différent.
+
+En conteneur on va utiliser des points de montage c'est-à-dire des dossiers qui persistent. 
+Chaque dossier de point de montage est associé à un dossier de ma machine. 
+
+volume =  persistance + point de montage. 
+Pour l'instant de type HOST, en docker y a que ça qui existe. Mais en généralisant on aura d'autres types de point de montage. 
+on lit le point de montage intéressant pour les volumes dans la documentation de hub.docker.com
+
+Quand y a pas de volume, y a pas de point de montage, donc tous les fichiers sont dans le virtuel, et ne seront pas persistées.
