@@ -162,3 +162,116 @@ Pour l'instant de type HOST, en docker y a que ça qui existe. Mais en général
 on lit le point de montage intéressant pour les volumes dans la documentation de hub.docker.com
 
 Quand y a pas de volume, y a pas de point de montage, donc tous les fichiers sont dans le virtuel, et ne seront pas persistées.
+
+
+Individuellement, on est capable de lancer des conteneurs un par un. Comment on le fait pour n machines ? Et réussir à répartir dynamiquement. On veut: ne jamais être lié à une seule machine 
+augmenter le nombre d'instances (scalabilité horizontale)
+
+On va répartir les machines en 2 catégories : 
+workers et master/control plane
+
+les workers vont faire le taf : exécuter les charges de travail. En général, ce sont les machines les plus puissantes. 
+Les masters/control : ils vont donner le boulot aux worker. Sur un cluster, on peut avoir autant de master physiquement que l'on veut pour être résilient en cas de panne, mais ils se comportent comme si ils étaient qu'un. 
+
+Dans le master, on va avoir le composant le plus important : l'API server. Application Programming Interface. ou web service rest, on peut les appeler en http pour obtenir des informations. 
+Cette APIserver sert, en discutant avec, à donner des ordres en lecture ou en écriture: exécute ce traitement python en 3 exemplaires, quels sont les processus qui tournent  ?
+On peut la consommer librement, discuter avec en http (donc avec n'importe quel clien). La façon la plus classique c'est d'utiliser le client de référence kubectl. Outil en ligne de commande qui permet d'envoyer des ordres à l'APIserver.
+
+chaque machine du cluster est un "node" ou un "noeud".
+```
+kubectl get nodes
+```
+
+# Quete secondaire : Comprendre HTTP.
+l'idée d'http : protocole simple déconnecté en mode client-serveur. Le client envoie une requête à un serveur. Le serveur traite la requête et répond. 
+une question/une réponse . FIN
+requête qu'on peut suivre dans les outils de développement du navigateur. 
+
+# quete secondaire : comprendre l'authentificatio net le système de jeton
+
+
+Une api exposée e n http, en utilisant le client de référence kubectl, en connaissant l'adresse et le jeton d'authentification. C'est ce qu'on appelle le kubeconfig.
+(on retrouve la notion de séparation entre environnement d'exécution et configuration)
+
+préoccupation :pas le déploiement du cluster, mais comment j'interagis avec. 
+
+les machines worker sont en interaction avec le master, grâce au kubelet. Les kubelet vont passer leur temps à reporter à l'API serveur du master. Ils font docker ps, prennent la sortie et l'envoie à l'API server. "voilà ce qui tourne chez moi". 
+Les agents bossent et les chefs sont censés répartir le boulot, et font des points réguliers. (docker ps  et ```docker info```)
+
+Il reste plus qu'à dire à l'API server (je veux faire tel truc) et l'API server fait pluf plouf ce sera toi qui le fera. 
+
+architecture simplified kubernetes
+chaque pod c'est l'équivalent d'un docker run. un pod il est sur 1 worker. 
+
+théorie finie:
+l'enjeu est maintenant dans le lien entre développeur et api server. Il faut avoir kubectl et le configurer pour interagir avec l'API server. 
+
+# Reproduction chez soi
+Comment accéder à l'API server ? Ca dépend du type de cluster qu'on fait. 
+
+datalab > vscode
+kubernetes : role=admin + enable
+security : enlever ip protection
+
+lancer : Onyxia a discuté avec l'API server et a dit déploie moi un vscode avec telle configuration. Ca a donné naissance à un conteneur quelque part. 
+Puis on se connecte dessus via une interface web. 
+
+kubectl get pods
+on demande à l'api server : donne moi la liste des pods en train de tourner. Il répond une ligne par pod qui tourne actuellement dans mon espace à moi. (isolé des autres utilisateurs). 
+
+kubectl pour kube control
+
+On a accès à un morceau de cluster : kubectl déjà installé avec les droits suffisants pour travailler dans mon espace. => déblocage de tous les tutos internet sur kubernetes kubectl et kubernetes déjà installés. Avec un espace où on ne peut rien casser. Donc pas d'hésitation à tester des trucs. 
+
+# Objectif : déployer une application accessible au monde entier sur internet. 
+
+10 lignes de code.
+
+1. choisir une image docker
+nginx: server web qui écoute sur un port 
+un serveur écoute un port. Il attend que des connexions arrivent sur un certain port. Nginx est un serveur, qui écoute sur le port 80, et attend qu'on lui envoie des requête http (serveur web) et il répond le fichier qui est demandé. = server web statique.
+
+port 80 pour http
+port 5432 pour postgres
+d'autres conventions...
+
+L'applicatif qu'on veut faire tourner : l'image docker d'nginx. 
+on va demander au cluster de le faire pour nous.
+
+écrire des fichiers de déploiements, les envoyer au cluster qui va les prendre en compte et agir en conséquence. 
+
+On va utiliser le .yaml
+(superset de json = même fonctionnalité, au lieu d'accolade on a des retour à la ligne et des tabulations)
+```
+kubectl apply -f pod.yaml
+```
+
+le pod peut mourir: on veut pas. Du coup on va faire des deployments qui vont créer des pods
+
+
+scalabilité verticale : problème de rendements décroissants.
+horizontale : meilleur rendement, mais il faut gérer la flotte 
+
+historiquement : mécanismes d'affinité = on garde le plouf plouf mais ensuite on remet le client sur la même instance/machine, donc on stockait localement sur la machine. C'est nul. Ca casse le principe. 
+
+On veut garder la scalabilité horizontale. D'où les interfaces REST. Si l'application est sans état STATE LESS, alors pas de problème de scalabilité. tout le monde répond la même chose. 
+C'est pour ça qu'on arrête de tout mettre au même endroit. Processus applicatifs qui s'appuieront sur une base de données plus difficile à scaler. le goulot d'étranglement se fait sur la bdd. 
+Le front end et l'api se font à l'infini, mais ils discutent toujours avec la bdd. 
+Est-ce que je peux scaler la bdd ? oui mais juste en lecture, moins bien en écriture. 
+
+
+3 cas d'utilisation :
+- la résilience. tu pars du principe que tous tes pods peuvent mourir pour des raisons valables ou non, et sont donc éphémères.
+- la gestion des performances/ Tu bosses pour le recensement et c'est le premier jour du recensement. ou amazon à Noel.
+- les concepts de calcul distribué. Si on fait tourner un traitement python à un endroit, on sera limité par la machine. => Déploie toi en 50 exemplaires, sur 50 machines et recentralisez l'information.
+
+Maintenant, on préfère avoir un truc qui fait popper plein de truc pendant pas longtemps plutôt qu'un gros truc très longtemps/ C'est le principe de Spark. C'est un framework de calcul distribué. 
+
+
+Il manque encore l'exposition et les notions réseaux. 
+
+faire des pods et des deployments.
+spoiler: les trucs 
+concept de service (exposition à l'intérieur du cluster) et de ingress (exposition à l'extérieur).
+
+# Quête principale : déployer un nginx sur internet.
