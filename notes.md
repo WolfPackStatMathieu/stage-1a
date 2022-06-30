@@ -285,3 +285,4 @@ concept de service (exposition à l'intérieur du cluster) et de ingress (exposi
 - comment tu t'assures que ton cluster ne pète pas ? 
 - à quoi ça sert un namespace ? est-ce que sur le datalab, chaque utilisateur a le sien ? est-ce que c'est étanche ?
 - est-ce qu'on peut être un service et autre chose à la fois ?
+- qu'est-ce qui se passe quand on a un seul node mais qu'il est défaillant et qu'on dépasse le temps d'attente maximum ? Les pods sont ils éteints ?
