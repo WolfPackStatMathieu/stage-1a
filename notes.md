@@ -275,3 +275,10 @@ spoiler: les trucs
 concept de service (exposition à l'intérieur du cluster) et de ingress (exposition à l'extérieur).
 
 # Quête principale : déployer un nginx sur internet.
+
+# J4 jeudi
+## Questions
+- Est-ce que deux applications dans un cluster peuvent communiquer entre elles (si elles ne sont pas dans un même container) ?
+- Pourquoi les images sont-elles portables entre les différents OS ? 
+- à quel niveau se situe Kubernetes ? au dessus de l'OS ? 
+- qu'est-ce qu'il se passe quand on crée un volume ? Est-ce que c'est rattaché à un conteneur ? 
