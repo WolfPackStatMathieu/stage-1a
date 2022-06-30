@@ -283,3 +283,4 @@ concept de service (exposition à l'intérieur du cluster) et de ingress (exposi
 - à quel niveau se situe Kubernetes ? au dessus de l'OS ? 
 - qu'est-ce qu'il se passe quand on crée un volume ? Est-ce que c'est rattaché à un conteneur ? 
 - comment tu t'assures que ton cluster ne pète pas ? 
+- à quoi ça sert un namespace ? est-ce que sur le datalab, chaque utilisateur a le sien ? est-ce que c'est étanche ?
