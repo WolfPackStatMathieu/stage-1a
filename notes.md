@@ -282,3 +282,4 @@ concept de service (exposition à l'intérieur du cluster) et de ingress (exposi
 - Pourquoi les images sont-elles portables entre les différents OS ? 
 - à quel niveau se situe Kubernetes ? au dessus de l'OS ? 
 - qu'est-ce qu'il se passe quand on crée un volume ? Est-ce que c'est rattaché à un conteneur ? 
+- comment tu t'assures que ton cluster ne pète pas ? 
