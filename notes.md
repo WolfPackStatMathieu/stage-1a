@@ -278,12 +278,12 @@ concept de service (exposition à l'intérieur du cluster) et de ingress (exposi
 
 # J4 jeudi
 ## Questions
-- Est-ce que deux applications dans un cluster peuvent communiquer entre elles (si elles ne sont pas dans un même container) ?
-- Pourquoi les images sont-elles portables entre les différents OS ? 
-- à quel niveau se situe Kubernetes ? au dessus de l'OS ? 
-- qu'est-ce qu'il se passe quand on crée un volume ? Est-ce que c'est rattaché à un conteneur ? est-ce que ça a une existence propre ?
-- comment tu t'assures que ton cluster ne pète pas ? 
-- à quoi ça sert un namespace ? est-ce que sur le datalab, chaque utilisateur a le sien ? est-ce que c'est étanche ?
-- est-ce qu'on peut être un service et autre chose à la fois ?
-- qu'est-ce qui se passe quand on a un seul node mais qu'il est défaillant et qu'on dépasse le temps d'attente maximum ? Les pods sont ils éteints ?
-test
+1. Est-ce que deux applications dans un cluster peuvent communiquer entre elles (si elles ne sont pas dans un même container) ?
+2. Pourquoi les images sont-elles portables entre les différents OS ? 
+3. à quel niveau se situe Kubernetes ? au dessus de l'OS ? 
+4. qu'est-ce qu'il se passe quand on crée un volume ? Est-ce que c'est rattaché à un conteneur ? est-ce que ça a une existence propre ?
+5. comment tu t'assures que ton cluster ne pète pas ? 
+6. à quoi ça sert un namespace ? est-ce que sur le datalab, chaque utilisateur a le sien ? est-ce que c'est étanche ?
+7. est-ce qu'on peut être un service et autre chose à la fois ?
+8. qu'est-ce qui se passe quand on a un seul node mais qu'il est défaillant et qu'on dépasse le temps d'attente maximum ? Les pods sont ils éteints ?
+9. comment configurer rapidement le git d'un vscode du Datalab vers gitlab ?
