@@ -287,3 +287,5 @@ concept de service (exposition à l'intérieur du cluster) et de ingress (exposi
 7. est-ce qu'on peut être un service et autre chose à la fois ?
 8. qu'est-ce qui se passe quand on a un seul node mais qu'il est défaillant et qu'on dépasse le temps d'attente maximum ? Les pods sont ils éteints ?
 9. comment configurer rapidement le git d'un vscode du Datalab vers gitlab ?
+10. A quoi ça sert de rendre unschedulable un node, mis à part le déconnecter du cluster ? 
+11. comment ça marche un tracker ? (de Jobs par exexmple)
