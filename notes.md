@@ -279,13 +279,55 @@ concept de service (exposition à l'intérieur du cluster) et de ingress (exposi
 # J4 jeudi
 ## Questions
 1. Est-ce que deux applications dans un cluster peuvent communiquer entre elles (si elles ne sont pas dans un même container) ?
+
+oui. Dans un container on met une seule application. Chaque app est dans son propre conteneur voire dans son propre pod. 
+Comment les faire interagir ? Chaque pod va avoir une adresse ip éphémère. C'est une adresse ip intra-cluster. Donc chaque pod a une ip individuelle temporaire. Donc on peut imaginer une communication inter pod où chaque pod appelle l'autre. Ca marche dans l'absolu sauf que c'est chiant car les adresses ip vont changer, et si on fait de la scalabilité, au lieu d'avoir 1 pod on va avoir n pods. La réponse à cette question est dans l'usage des Services: permettent une ip fixe. on appelle l'ip qui envoie vers un pod vivant. C'est du load balancing ) répartition de charge. 
+
+
 2. Pourquoi les images sont-elles portables entre les différents OS ? 
+si c'est entre windows et linux, c'est pas le cas. pas de serveur windows. 
+on a un moteur docker qui fait l'abstraction entre le conteneur et le noyau (linux).
+Quand on installe docker sur windows, on installe un noyau linux. La compatibilité se fait au niveu du noyau linux. POtentiellement: on peut avoir un pb avec deux machines ayant un noyau linux différent. Mais ça n'arrive pas. 
+
 3. à quel niveau se situe Kubernetes ? au dessus de l'OS ? 
+quelques modules applicatifs qu'on rajoute au-dessus de l'OS comme une autre application. (avec des droits roots). on installe les kubelets sur les machines workers, et on fait communiquer avec le master (qui a les applis du schéma simplifié)
+Pour installer à la main le cluster kubernetes, c'est un peu chiant. Il y a des distributions kubernetes. Où on dit voilà la liste de mes machines, installe toi. 
+prérequis pour l'installer: au moins une machine, de préférence un système linux et les droits administrateurs dessus. (en une ligne si on veut)
+
 4. qu'est-ce qu'il se passe quand on crée un volume ? Est-ce que c'est rattaché à un conteneur ? est-ce que ça a une existence propre ?
+micro/macro.
+d'abord micro. On revient à Docker. on sépare l'environnement de traitement/ code/ données / config.
+env et données : n'importe qui peut faire un conteneur, dont tout est basé sur l'image. tout le monde aura un postgres sans aucune donnée à l'intérieur. Dès que le conteneur meurt on perd tout ce qu'il y a dedans. On a besoin du concept de persistance : j'aimerais que tout soit un conteneur sauf ce dossier là dans mon postgre. On peut faire docker run postgres avec un volume : un dossier du système hôte uqi sera monté dans le conteneur. ça c'est au niveau micro. c'est un pont entre un dossier du système hôte qui existe déjà et un dossier du ocnteneur. Il est rattaché au conteneur, mais temporairement. C'est comme une clé usb dans l'explorateur de fichier. 
+niveau macro : même idée sauf qu'on ne se limite pas à des volumes de système hôte: pas lié à une machine en particulier car elles va exploser. On a une généralisation : persistence volume claim. Il y a différents types de volume. Au lieu d'avoir un dossier sur le sytème hote, on les met sur un cluster de fichier = système de stockage en cluster sur plusieurs machines. On a déporté le stockage, mis à dispositio nde tout le cluster. A chaque fois qu'un conteneur pop, kubernetes va aller chercher les données si le cluster de fichier est disponible. 
+
+
 5. comment tu t'assures que ton cluster ne pète pas ? 
+si le maître pète ? c'est pas parce qu'il y a une entité qu'il y a une seule machine. Ils discutent entre eux pour qu'ils agissent comme un seul: algorithme de consensus distribué. 
+ils sont un nombre impair pour avoir le consensus en cas de panne. celui isolé va chercher à recontacter les autres control plane.
+
+
 6. à quoi ça sert un namespace ? est-ce que sur le datalab, chaque utilisateur a le sien ? est-ce que c'est étanche ?
+segmentation logique : espace de travail. La plupart des ressources sont liées à un namespace (ou cross namespace). ça sert à faire comme des dossiers dans lequel chacun travaille. 
+Dans le datalab, chacun a le sien. **étanche au niveau des droits** (on donne les droits sur son propre namespace), mais **pas étanche au niveau réseau**. Un pod peut en attaquer un autre. on en rajoute sur certains avec la network policy.
+
 7. est-ce qu'on peut être un service et autre chose à la fois ?
+c'est un concept kubernetes, attention. c'est un load balancer, objet purement réseau qui dit moi j'ai une ip associée qui renverra le traffic sur des pods. 
+le principe : objet purement réseau qui permet l'exposition en intracluster des pods pour leur donner une existence au niveau réseau. load balancer interne, et l'ingress servira de reverse proxy .
+
+faux ami: le service par défaut est un cluster ip, maias aussi le service load balancer. 
+
+
 8. qu'est-ce qui se passe quand on a un seul node mais qu'il est défaillant et qu'on dépasse le temps d'attente maximum ? Les pods sont ils éteints ?
+oui, au début il passe ne not ready, on ne lui enovie plus de taf, et au bout d'un certain temps on applique la politique. 
+le fait de ne plus donner signe de vie ne veut pas dire qu'il est éteint. Mais juste que la connection est cassée. 
+quand il ne répond pas pendant une période prolongée c'est un pb. Le control plane n'est plus en contact avec les pods. 
+
+
 9. comment configurer rapidement le git d'un vscode du Datalab vers gitlab ?
+voir sur place. 
+
 10. A quoi ça sert de rendre unschedulable un node, mis à part le déconnecter du cluster ? 
-11. comment ça marche un tracker ? (de Jobs par exexmple)
+
+11. comment ça marche un tracker ? (de Jobs par exemple)
+
+
