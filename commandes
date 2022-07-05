@@ -1,0 +1,8 @@
+changement d'adresse avec le token
+git remote set-url origin https://oauth2:glpat-K7L1KJXTJLPDirSHjEXM@git.lab.sspcloud.fr/mthomassin
+mais donne un probleme de droits
+puis on verifie les droits
+ls -alh /home/headless/
+et on donne les droits admin a l'utilisateur
+sudo chown headless:headless -r /home/headless/.cache 
+et on relance alors la premiere commande
