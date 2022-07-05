@@ -1,2 +1,7 @@
 FROM python:3.10
-COPY flask.py
+RUN mkdir -p /app
+COPY flask.py ./app
+
+
+
+
