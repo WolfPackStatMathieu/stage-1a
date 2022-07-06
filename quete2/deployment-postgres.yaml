@@ -18,9 +18,9 @@ spec:
             - name: POSTGRES_DB
               value: db0
             - name: POSTGRES_USER
-              value: postgres
+              value: postgres-secret
             - name: POSTGRES_PASSWORD
-              value: /run/secrets/postgres-passwd
+              value: postgres-passwd
           volumeMounts:
             - mountPath: "/var/lib/postgresql/data"
               name: "user-pgdata"
