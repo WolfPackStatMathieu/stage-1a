@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: toto
+  labels:
+    name: toto
+spec:
+  rules:
+  - host: mercredi-greve.dev.insee.io
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: toto
+            port: 
+              number: 80 

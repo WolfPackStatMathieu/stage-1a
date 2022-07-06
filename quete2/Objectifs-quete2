@@ -1,0 +1,6 @@
+Objectifs
+etendre le jeu de la quete1 pour le rendre plus marrant
+custom l'app pour mettre juste un champ de texte a remplir par l'utilisateur
+connecter l'app a une base postgreSQL
+a chaque fois qu'un utilisateur ajoute un truc ca s'ajoute a la base
+

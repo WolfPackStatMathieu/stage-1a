@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monpod
+  labels:
+    name: monpod
+spec:
+  containers:
+  - name: monpod
+    image: ttl.sh/hello-mthomassin:24h
+    
