@@ -1,18 +1,18 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nginx
+  name: mon-ingress-toto
   labels:
-    name: nginx
+    name: mon-ingress-toto
 spec:
   rules:
-  - host: mardi-greve.kub.sspcloud.fr
+  - host: mercredi-greve.dev.insee.io
     http:
       paths:
       - pathType: Prefix
         path: "/"
         backend:
           service:
-            name: nginx
+            name: mon-service-toto
             port: 
               number: 8080 
