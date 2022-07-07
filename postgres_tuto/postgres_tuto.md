@@ -8,16 +8,22 @@ Repartons du site de l'Ensai: https://ensai.fr/ . Il suffit de cliquer sur **ENT
 
 ![A test image](./img/Capture%20site%20ensai%20fl%C3%A8che.png)
 
-On arrive sur l'ENT :
+J'arrive sur l'ENT :
 
 ![A test image](./img/Capture_ENT_accueil_fleche.PNG)
 
-Puis sur le service d'authentification
+Puis sur le service d'authentification. J'y rentre mon identifiant et mon mot de passe (:zipper_mouth_face:). 
 
 ![ENT connexion](./img/Capture_ENT_connexion_fleche.png)
 
+Et j'arrive sur la page d'accueil de mon espace personnel. 
 
+![ENT accueil perso](./img/Capture_ENT_accueil_user_fleche.PNG)
 
+Normalement, je devrais pouvoir retrouver de quoi travailler mon TP bientôt... 
 
+![ENT Mes Applications](./img/Capture_Mes_Applications_fleche.PNG)
+
+Malheur ! L'application est disponible uniquement en se connectant depuis l'Ensai. Faudra-t-il que je révise mes TP à l'école ?  Mais moi j'aime l'odeur du SQL au petit matin, le son de Postgres le soir au fond des bois. Et puis, j'ai vraiment besoin de valider l'UE. :sob:
 
 
