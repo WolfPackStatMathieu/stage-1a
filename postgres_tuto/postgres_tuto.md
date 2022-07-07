@@ -26,4 +26,13 @@ Normalement, je devrais pouvoir retrouver de quoi travailler mon TP bientôt...
 
 Malheur ! L'application est disponible uniquement en se connectant depuis l'Ensai. Faudra-t-il que je révise mes TP à l'école ?  Mais moi j'aime l'odeur du SQL au petit matin, le son de Postgres le soir au fond des bois. Et puis, j'ai vraiment besoin de valider l'UE. :sob:
 
+# Heureusement, le Datalab est là ! :partying_face:
+
+Disposant d'un compte Ensai/Ensae, je peux utiliser le Datalab fourni par la division Innovation de l'Insee : https://datalab.sspcloud.fr/home, que je sois en cursus ingénieur ou fonctionnaire ! 
+![logo Insee](./img/INSEE_1.2_SIGNATURE.png)
+
+
+
+
+![Onyxia mere des dragons](./img/Onyxia_mere_des_dragons.png)
 
