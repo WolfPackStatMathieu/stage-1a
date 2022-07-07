@@ -1,4 +1,4 @@
-# Tuto : J'apprends réviser mon tp de sql à la maison :sweat_smile:
+# Tuto : J'apprends à réviser mon TP de Base de Données à la maison :sweat_smile:
 
 Aujourd'hui, c'était TP de SQL. J'ai fait des super requêtes, mais maintenant, je voudrais bien réviser un peu depuis chez moi. Voyons voyons... Comment c'était déjà ? 
 D'abord, aller sur l'**E**space **N**umérique de **T**ravail de l'école. Mince, j'ai oublié le lien !
