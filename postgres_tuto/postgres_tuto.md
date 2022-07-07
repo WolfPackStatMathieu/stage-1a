@@ -28,9 +28,9 @@ Malheur ! L'application est disponible uniquement en se connectant depuis l'Ensa
 
 # Heureusement, le Datalab est là ! :partying_face:
 
-Disposant d'un compte Ensai/Ensae, je peux utiliser le Datalab fourni par la division Innovation de l'Insee : https://datalab.sspcloud.fr/home, que je sois en cursus ingénieur ou fonctionnaire ! 
+Disposant d'un compte Ensai/Ensae, je peux utiliser le Datalab fourni par la division Innovation de l'Insee : https://datalab.sspcloud.fr/home, 
 ![logo Insee](./img/INSEE_1.2_SIGNATURE.png)
-
+et ceci que je sois en cursus ingénieur ou fonctionnaire ! 
 
 
 
