@@ -34,6 +34,11 @@ Disposant d'un compte Ensai/Ensae, je peux utiliser le Datalab fourni par la div
 ==> https://datalab.sspcloud.fr/home, 
 et ceci que je sois en cursus ingénieur ou fonctionnaire ! 
 
+Bref, j'arrive ici :
+![Onyxia accueil](./img/Capture_Onyxia_accueil_fleche.PNG)
+
+
+
 
 
 ![Onyxia mere des dragons](./img/Onyxia_mere_des_dragons.png)
