@@ -22,8 +22,8 @@ cours généraliste ?
 Rémi: à l'ensai, il y a une plus grosse compétence informatique. milite pour une compétence info forte dans le tronc commun. Dans la tolbox du datascientist. Le moment pour les futurs sid en 3A de se décider.
 
 
-vscode + github
-vscode + postgres
+# Quête principale :  vscode + github
+## Quête secondaire : vscode + postgres
 
 
 
