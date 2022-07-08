@@ -36,8 +36,10 @@ et ceci que je sois en cursus ingénieur ou fonctionnaire !
 
 Bref, j'arrive ici :
 ![Onyxia accueil](./img/Capture_Onyxia_accueil_fleche.PNG)
-
-
+**Onyxia - SSP Cloud Datalab** : Qu'est-ce que c'est que ce truc ? On va expliquer tout ça mot par mot.
+D'abord, Onyxia : pourquoi Onyxia ? Selon Frédéric, un des concepteurs de la plateforme :
+>*A la base, ça vient du nom de World of Warcraft, c'est une créature qui a la forme d'un dragon et qui est la mère de tous les dragons. Nous, on jouait à Battleground, et dedans, quand tu joues cette carte, elle remplit ton board de plein de petits dragons. qui arrivent avec elle. L'idée d'Onyxia, c'est quand un administrateur choisit de mettre Onyxia dans son système d'information, tous ses utilisateurs vont pouvoir utiliser plein de petits services pour faire de la data science. Là ils vont utiliser leur premier petit dragon de l'Insee.* 
+>
 
 
 
