@@ -24,11 +24,12 @@ Normalement, je devrais pouvoir retrouver de quoi travailler mon TP bientôt...
 
 ![ENT Mes Applications](./img/Capture_Mes_Applications_fleche.PNG)
 
-Malheur ! L'application est disponible uniquement en se connectant depuis l'Ensai. Faudra-t-il que je révise mes TP à l'école ?  Mais moi j'aime l'odeur du SQL au petit matin, le son de Postgres le soir au fond des bois. Et puis, j'ai vraiment besoin de valider l'UE. :sob:
+Malheur ! L'application est disponible uniquement en se connectant depuis l'Ensai. Faudra-t-il que je révise mes TP à l'école ?  Mais moi j'aime l'odeur du SQL au petit matin, le son de Postgres le soir du fond de mon lit. Et puis, j'ai vraiment besoin de valider l'UE. :sob:
 
 # Heureusement, le Datalab est là ! :partying_face:
 
 Disposant d'un compte Ensai/Ensae, je peux utiliser le Datalab fourni par la division Innovation de l'Insee :
+
 ![logo Insee](./img/INSEE_1.2_SIGNATURE.png)
 
 ==> https://datalab.sspcloud.fr/home, 
@@ -37,11 +38,28 @@ et ceci que je sois en cursus ingénieur ou fonctionnaire !
 Bref, j'arrive ici :
 ![Onyxia accueil](./img/Capture_Onyxia_accueil_fleche.PNG)
 **Onyxia - SSP Cloud Datalab** : Qu'est-ce que c'est que ce truc ? On va expliquer tout ça mot par mot.
-D'abord, Onyxia : pourquoi Onyxia ? Selon Frédéric, un des concepteurs de la plateforme :
->*A la base, ça vient du nom de World of Warcraft, c'est une créature qui a la forme d'un dragon et qui est la mère de tous les dragons. Nous, on jouait à Battleground, et dedans, quand tu joues cette carte, elle remplit ton board de plein de petits dragons. qui arrivent avec elle. L'idée d'Onyxia, c'est quand un administrateur choisit de mettre Onyxia dans son système d'information, tous ses utilisateurs vont pouvoir utiliser plein de petits services pour faire de la data science. Là ils vont utiliser leur premier petit dragon de l'Insee.* 
+D'abord, pourquoi **Onyxia** ? Selon Frédéric, le concepteur initial de la plateforme :
+>*A la base, ça vient du nom de World of Warcraft, c'est une créature qui a la forme d'un dragon et qui est la mère de tous les dragons. Nous, on jouait à Battleground, et dedans, quand tu joues cette carte, elle remplit ton board de plein de petits dragons qui arrivent avec elle. L'idée d'Onyxia, c'est quand un administrateur choisit de mettre Onyxia dans son système d'information, tous ses utilisateurs vont pouvoir utiliser plein de petits services pour faire de la data science. Là ils vont utiliser leur premier petit dragon de l'Insee.* 
 >
 
-
-
 ![Onyxia mere des dragons](./img/Onyxia_mere_des_dragons.png)
+
+
+Ok, et pourquoi **SSP Cloud Datalab** ?
+- **S**ystème **S**tatistique **P**ublique
+- Cloud Datalab : parce que c'est un endroit, un laboratoire où on manipule des données dans le cloud (dont les serveurs sont situés dans les locaux de l'Insee)
+
+Voilà, maintenant que c'est plus clair, il suffit de cliquer sur **Connexion**, puis de créer un compte si c'est la première fois (avec une adresse mail d'un nom de domaine autorisé, comme ensai par exemple).
+
+![Datalab connexion](./img/Capture_Datalab_connexion_fleche.PNG)
+
+Une fois connecté, apparaît la page d'accueil de l'utilisateur.
+
+![Datalab page d'accueil utilisateur](./img/Capture_Datala_home_fleche.PNG)
+
+C'est dans le **Catalogue de services** qu'on trouvera de quoi faire le TP de SQL facilement. Il faut trouver le service **Pgadmin**. ![Pgadmin](./img/Pgadmin.PNG). **Attention**, ne pas confondre avec Postgresql qui utilise le même logo.
+
+**Indice :** Les services sont rangés par ordre alphabétique.
+
+![Datalab Catalog](./img/Capture_Datala_catalog_fleche.PNG)
 
