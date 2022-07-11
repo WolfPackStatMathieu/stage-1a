@@ -136,4 +136,4 @@ Quand j'ai fini de travailler, je reviens sur la page d'accueil du Datalab et je
 
 ![fermeture services](./img/Fermeture_services_fleche.PNG)
 
-C'est d'ailleurs l'objet du prochain tuto : J'apprends à utiliser Vscode sur le Datalab et à le connecter à mon compte Github pour gérer mon code individuel.
+C'est d'ailleurs l'objet du prochain tuto : J'apprends à utiliser Vscode sur le Datalab et à le connecter à mon compte Github pour gérer mon code individuel. https://github.com/WolfPackStatMathieu/stage-1a/blob/main/vscode_avec_github_tuto/vscode_tuto
