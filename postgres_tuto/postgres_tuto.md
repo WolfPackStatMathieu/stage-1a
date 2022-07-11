@@ -134,4 +134,6 @@ Cependant, si je veux conserver mes requêtes, je dois les copier-coller dans un
 
 Quand j'ai fini de travailler, je reviens sur la page d'accueil du Datalab et je supprime les services que je n'utilise plus. Attention, je conserve en tête l'idée que ces services sont découplés du stockage des données que je traite. Notamment, si j'écris du code, j'ai grandement intérêt à utiliser un outil de versionnage comme Github afin de conserver et partager mon code. 
 
+![fermeture services](./img/Fermeture_services_fleche.PNG)
+
 C'est d'ailleurs l'objet du prochain tuto : J'apprends à utiliser Vscode sur le Datalab et à le connecter à mon compte Github pour gérer mon code individuel.
