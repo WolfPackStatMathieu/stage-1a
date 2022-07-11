@@ -94,7 +94,17 @@ Pour utiliser ma base Postgres, je ne vais pas utiliser un terminal et des ligne
 
 ![Datalab Pgadmin configuation](./img/Capture_Datalab_Pgadmin_config_fleche.PNG)
 
-Bon, j'aime bien apprendre des petites choses. Et le pourquoi d'une configuration automatique vient de l'option **Enable postgres discovery**. Les deux services ont été préconfiguré pour se parler ensemble au sein du Datalab.
+Bon, j'aime bien apprendre des petites choses. Et le pourquoi d'une configuration automatique vient de l'option **Enable postgres discovery**. Les deux services ont été préconfigurés pour se parler ensemble au sein du Datalab.
 
 ![Datalab Pgadmin config Discovery](./img/Capture_Pgadmin_config_fleche.PNG)
+
+![Datalab Pgadmin lancement](./img/Capture_Pgadmin_lancement_fleche.PNG)
+
+![Datalab Pgadmin ouverture](./img/Capture_Pgadmin_ouverture_fleche.PNG)
+
+
+Je tombe sur la page de connexion à Pgadmin:
+Si j'ai oublié mes informations de connexion, je peux consulter le **README** du service correspondant.
+
+![Pgadmin connexion](./img/Pgadmin_connexion_fleche.PNG)
 
