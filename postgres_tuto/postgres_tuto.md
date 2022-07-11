@@ -128,5 +128,10 @@ Pour pouvoir se connecter à la base Postgresql, Pgadmin a besoin de l'identifia
 ![Pgadmin tables](./img/Pgadmin_tables_fleche.PNG)
 
 
-Voilà, maintenant je peux travailler dans une belle base Postgresql toute neuve !
+Voilà, maintenant je peux travailler dans une belle base Postgresql toute neuve ! Je peux réutiliser l'éditeur de requête ou en ouvrir un autre.
+
 Cependant, si je veux conserver mes requêtes, je dois les copier-coller dans un fichier sur mon espace de travail. Pourquoi ? Parce que la base Postgresql et Pgadmin ont été créés sur un cluster de service (Onyxia), et qu'il faudrait faire une autre manipulation. Mais cela est une autre histoire.
+
+Quand j'ai fini de travailler, je reviens sur la page d'accueil du Datalab et je supprime les services que je n'utilise plus. Attention, je conserve en tête l'idée que ces services sont découplés du stockage des données que je traite. Notamment, si j'écris du code, j'ai grandement intérêt à utiliser un outil de versionnage comme Github afin de conserver et partager mon code. 
+
+C'est d'ailleurs l'objet du prochain tuto : J'apprends à utiliser Vscode sur le Datalab et à le connecter à mon compte Github pour gérer mon code individuel.
