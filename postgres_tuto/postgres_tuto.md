@@ -57,7 +57,7 @@ Une fois connecté, apparaît la page d'accueil de l'utilisateur.
 
 ![Datalab page d'accueil utilisateur](./img/Capture_Datala_home_fleche.PNG)
 
-C'est dans le **Catalogue de services** qu'on trouvera de quoi faire le TP de SQL facilement. Il faut trouver Postgresql puis Pgadmin et les lancer dans cet ordre pour avoir la configuration automatique. On verra une deuxième façon de faire en configurant manuellement.
+C'est dans le **Catalogue de services** qu'on trouvera de quoi faire le TP de SQL facilement. Il faut trouver Postgresql puis Pgadmin et les lancer dans cet ordre pour avoir la configuration automatique. *La configuration manuelle est laissée en exercice au lecteur* :trollface:
 
 On lance donc d'abord un service **Postgresql**. 
 
