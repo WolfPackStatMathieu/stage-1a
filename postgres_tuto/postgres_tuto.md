@@ -108,3 +108,10 @@ Si j'ai oublié mes informations de connexion, je peux consulter le **README** d
 
 ![Pgadmin connexion](./img/Pgadmin_connexion_fleche.PNG)
 
+Pgadmin s'ouvre, et m'offre ainsi une interface graphique pour me connecter à ma base Postgresql.
+
+![Pgadmin autodiscovery](./img/Pgadmin_autodiscovery_fleche.PNG)
+
+Pour pouvoir se connecter à la base Postgresql, Pgadmin a besoin de l'identifiant et du mot de passe fournis lors de la création de la base Postgresql.
+
+![Pgadmin identification](./img/Pgadmin_identification_fleche.PNG)
