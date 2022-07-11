@@ -57,9 +57,44 @@ Une fois connecté, apparaît la page d'accueil de l'utilisateur.
 
 ![Datalab page d'accueil utilisateur](./img/Capture_Datala_home_fleche.PNG)
 
-C'est dans le **Catalogue de services** qu'on trouvera de quoi faire le TP de SQL facilement. Il faut trouver le service **Pgadmin**. ![Pgadmin](./img/Pgadmin.PNG). **Attention**, ne pas confondre avec Postgresql qui utilise le même logo.
+C'est dans le **Catalogue de services** qu'on trouvera de quoi faire le TP de SQL facilement. Il faut trouver Postgresql puis Pgadmin et les lancer dans cet ordre pour avoir la configuration automatique. On verra une deuxième façon de faire en configurant manuellement.
 
-**Indice :** Les services sont rangés par ordre alphabétique.
+On lance donc d'abord un service **Postgresql**. 
+
+![Postgresql logo](./img/Capture_Postgresql_logo.PNG)
+
+![Datalab Postgresql](./img/Capture_Datalab_Postgresql_fleche.PNG)
+
+On arrive sur la page de création d'un service Postgresql: 
+
+![Datalab Postgresql lancement](./img/Capture_Postgresql_lancement_fleche.PNG)
+
+
+![Datalab Postgresql creation](./img/Capture_Postgresql_creation_fleche.PNG)
+
+
+
+![Datalab Services en cours](./img/Capture_Datalab-Services_en_cours_fleche.PNG)
+
+
+
+
+
+Pour utiliser ma base Postgres, je ne vais pas utiliser un terminal et des lignes de commande, mais une interface graphique un peu plus conviviale :
+
+![Pgadmin](./img/Pgadmin.PNG). Je lance donc un service **Pgadmin** en cliquant sur **Catalogue de services**.
+
+**Indice :** Passés les services les plus courants, les autres sont rangés par ordre alphabétique.
 
 ![Datalab Catalog](./img/Capture_Datala_catalog_fleche.PNG)
+
+
+![Datalab Pgadmin](./img/Capture._Datalab_Catalog_Pgadmin_fleche.PNG)
+
+
+![Datalab Pgadmin configuation](./img/Capture_Datalab_Pgadmin_config_fleche.PNG)
+
+Bon, j'aime bien apprendre des petites choses. Et le pourquoi d'une configuration automatique vient de l'option **Enable postgres discovery**. Les deux services ont été préconfiguré pour se parler ensemble au sein du Datalab.
+
+![Datalab Pgadmin config Discovery](./img/Capture_Pgadmin_config_fleche.PNG)
 
