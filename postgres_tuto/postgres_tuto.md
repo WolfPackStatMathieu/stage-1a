@@ -115,3 +115,18 @@ Pgadmin s'ouvre, et m'offre ainsi une interface graphique pour me connecter à m
 Pour pouvoir se connecter à la base Postgresql, Pgadmin a besoin de l'identifiant et du mot de passe fournis lors de la création de la base Postgresql.
 
 ![Pgadmin identification](./img/Pgadmin_identification_fleche.PNG)
+
+=> Le mot de passe de la base SQL est dans le **README** de la base Postgresql créée (c'est d'ailleurs le même qui est utilisé pour Pgadmin)
+
+![Pgadmin base](./img/Pgadmin_base_fleche.PNG)
+
+![Pgadmin requetes](./img/Pgadmin_requete_fleche.PNG)
+
+
+![Pgadmin_scrip](./img/Pgadmin_script_fleche.PNG)
+
+![Pgadmin tables](./img/Pgadmin_tables_fleche.PNG)
+
+
+Voilà, maintenant je peux travailler dans une belle base Postgresql toute neuve !
+Cependant, si je veux conserver mes requêtes, je dois les copier-coller dans un fichier sur mon espace de travail. Pourquoi ? Parce que la base Postgresql et Pgadmin ont été créés sur un cluster de service (Onyxia), et qu'il faudrait faire une autre manipulation. Mais cela est une autre histoire.
