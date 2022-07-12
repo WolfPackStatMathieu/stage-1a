@@ -46,7 +46,7 @@ Pour utiliser ma base Postgres, je veux utiliser **DBeaver**. Ce logiciel est pr
 ### J'ouvre un service Ubuntu
 ![Ubuntu lancement](./img/Capture_Ubuntu_lancement_fleche.PNG)
 
-
+![Ubuntu config](./img/Capture_Ubuntu_config_fleche.PNG)
 
 
 ## Et finalement je lance et connecte DBeaver à ma base Postgresql
