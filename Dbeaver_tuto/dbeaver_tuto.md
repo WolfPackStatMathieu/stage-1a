@@ -16,7 +16,7 @@ Et pour **Postgresql** : [ici](https://wiki.postgresql.org/wiki/Logo), on appren
 
 ## Je crée d'abord ma base Postgresql (passer à l'étape suivante si déjà connu)
 
-On lance donc d'abord un service **Postgresql**. 
+On lance donc d'abord un service **Postgresql**.  (Rappel: on utilise  [Onyxia](https://datalab.sspcloud.fr))
 
 ![Postgresql logo](./img/Capture_Postgresql_logo.PNG)
 
@@ -60,3 +60,5 @@ J'obtiens un Ubuntu ! Victoire ! :balloon: :penguin: :balloon:
 
 
 ## Et finalement je lance et connecte DBeaver à ma base Postgresql
+
+![Ubuntu lancement terminal](./img/Ubuntu_terminal_lancement_fleche.PNG)
