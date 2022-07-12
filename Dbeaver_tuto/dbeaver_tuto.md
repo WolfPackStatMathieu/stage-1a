@@ -14,7 +14,7 @@ Les plus anglophones d'entre nous auront peut-être été [surpris](https://gith
 
 Et pour **Postgresql** : [ici](https://wiki.postgresql.org/wiki/Logo), on apprend l'origine du logo de Postgresql (mais surtout le nom de l'éléphant! :heart_eyes:) 
 
-## Je crée ma base Postgresql (passer à l'étape suivante si déjà connu)
+## Je crée d'abord ma base Postgresql (passer à l'étape suivante si déjà connu)
 
 On lance donc d'abord un service **Postgresql**. 
 
@@ -39,9 +39,14 @@ On arrive sur la page de création d'un service Postgresql:
 
 Pour utiliser ma base Postgres, je veux utiliser **DBeaver**. Ce logiciel est préinstallé sur le service Ubuntu. Vous l'aurez donc deviné, je vais lancer un service **Ubuntu**
 
-## Je lance mon service Ubuntu
+## Je lance ensuite mon service Ubuntu
 
 [**Ubuntu**](https://en.wikipedia.org/wiki/Ubuntu_philosophy), c'est d'abord une philosophie, c'est le monde du libre (:penguin:) et ça veut dire "humanité". On le traduit parfois par "Je suis parce que tu es" et cela représente une philosophie humaniste, qui cherche à relier "soi, les autres, le monde". En plus, c'est juste indispensable de s'y mettre car tous les serveurs fonctionnent aujourd'hui avec un noyau linux. :smiling_imp: C'est donc l'occasion de s'y mettre à tout petit pas.
 
+### J'ouvre un service Ubuntu
+![Ubuntu lancement](./img/Capture_Ubuntu_lancement_fleche.PNG)
 
-## Je lance et connecte DBeaver à ma base Postgresql
+
+
+
+## Et finalement je lance et connecte DBeaver à ma base Postgresql
