@@ -10,9 +10,9 @@ Les plus anglophones d'entre nous auront peut-être été [surpris](https://gith
 
 
 
-**DBeaver** est un logiciel permettant de **gérer plusieurs bases de données différentes** sur une seule et même application, et donc de **manipuler des données de différentes sources très rapidement**. Par exemple, dans le cadre de l'Ensai, autant de bases de donnée que de TP de SQL, ou dans le cadre de l'Insee une base pour le développement, une base pour la production (! attention fragile !) et une base "bac à sable".
+**DBeaver** est un logiciel permettant de **gérer plusieurs bases de données différentes** sur une seule et même application, et donc de **manipuler des données de différentes sources très rapidement**. Par exemple, dans le cadre de l'Ensai, autant de bases de données que de TP de SQL, ou dans le cadre de l'Insee une base pour le développement, une base pour la production (! attention fragile !) et une base "bac à sable".
 
-Et pour **Postgresql** : où l'on apprend l'origine du logo de Postgresql (mais surtout le nom de l'éléphant! :heart_eyes:) https://wiki.postgresql.org/wiki/Logo
+Et pour **Postgresql** : [ici](https://wiki.postgresql.org/wiki/Logo), on apprend l'origine du logo de Postgresql (mais surtout le nom de l'éléphant! :heart_eyes:) 
 
 ## Je crée ma base Postgresql (passer à l'étape suivante si déjà connu)
 
