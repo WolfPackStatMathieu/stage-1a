@@ -48,5 +48,15 @@ Pour utiliser ma base Postgres, je veux utiliser **DBeaver**. Ce logiciel est pr
 
 ![Ubuntu config](./img/Capture_Ubuntu_config_fleche.PNG)
 
+![Ubuntu mdp](./img/Capture_Ubuntu_mdp_fleche.PNG)
+
+![Ubuntu ouverture](./img/Capture_Ubuntu_ouverture_fleche.PNG)
+
+![Ubuntu service mdp](./img/Ubuntu_service_mdp_fleche.PNG)
+
+J'obtiens un Ubuntu ! Victoire ! :balloon: :penguin: :balloon:
+
+![Ubuntu accueil](./img/Ubuntu_accueil.PNG)
+
 
 ## Et finalement je lance et connecte DBeaver à ma base Postgresql
