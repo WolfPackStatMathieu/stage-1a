@@ -5,7 +5,7 @@
 Dans ce tuto, j'apprends à travailler sur une base Postgresql à partir du logiciel DBeaver, au sein de la plateforme [Onyxia](https://datalab.sspcloud.fr). (pour une présentation d'Onyxia et la façon de s'y connecter, voir [ici](https://www.example.com))
 
 ## **DBeaver** : Qu'est-ce que c'est ?
-
+![Dbeaver logo](./img/castor%20Dbeaver.png)
 Les plus anglophones d'entre nous auront peut-être été [surpris](https://github.com/dbeaver/dbeaver/discussions/11422#discussioncomment-743232) par le nom de ce logiciel. :wink: 
 
 
