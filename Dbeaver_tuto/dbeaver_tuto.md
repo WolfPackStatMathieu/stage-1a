@@ -61,4 +61,7 @@ J'obtiens un Ubuntu ! Victoire ! :balloon: :penguin: :balloon:
 
 ## Et finalement je lance et connecte DBeaver à ma base Postgresql
 
+### On va ouvrir un terminal, parce que quand j'utilise les lignes de commande je me sens l'âme d'un hacker (et surtout je n'ai pas besoin de bouger la main)
+
 ![Ubuntu lancement terminal](./img/Ubuntu_terminal_lancement_fleche.PNG)
+
