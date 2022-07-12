@@ -41,7 +41,7 @@ Pour utiliser ma base Postgres, je veux utiliser **DBeaver**. Ce logiciel est pr
 
 ## Je lance mon service Ubuntu
 
-[**Ubuntu**](https://en.wikipedia.org/wiki/Ubuntu_philosophy), c'est d'abord une philosophie, c'est le monde du libre (:penguin:) et ça veut dire "humanité". On traduit parfois "Je suis parce que tu es" et cela représente une philosophie humaniste, qui cherche à relier "soi, les autres, le monde". En plus, c'est juste indispensable de s'y mettre car tous les serveurs fonctionnent aujourd'hui avec un noyau linux.
+[**Ubuntu**](https://en.wikipedia.org/wiki/Ubuntu_philosophy), c'est d'abord une philosophie, c'est le monde du libre (:penguin:) et ça veut dire "humanité". On le traduit parfois par "Je suis parce que tu es" et cela représente une philosophie humaniste, qui cherche à relier "soi, les autres, le monde". En plus, c'est juste indispensable de s'y mettre car tous les serveurs fonctionnent aujourd'hui avec un noyau linux. :smiling_imp: C'est donc l'occasion de s'y mettre à tout petit pas.
 
 
 ## Je lance et connecte DBeaver à ma base Postgresql
