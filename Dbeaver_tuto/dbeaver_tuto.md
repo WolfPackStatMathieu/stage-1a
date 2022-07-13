@@ -80,3 +80,16 @@ dbeaver
 
 ![Ubuntu driver](./img/Ubuntu_download_fleche.PNG)
 
+### Youpi ! J'ai de quoi me connecter. Mais comment ça marche ?
+
+![Ubuntu dbeaver setting](./img/Ubuntu_connection_settings_fleche.PNG)
+
+
+## Maintenant c'est un jeu de "quoi va où" 
+
+### On récupère les informations nécessaires sur la page "**Mes services**" du Datalab
+![Datalab mes-services](./img/Datalab_mes_services_fleche.PNG)
+
+### le port par défaut de Postgresql : **5432**. C'est celui qui est utilisé par défaut au lancement du service Postgresql.
+
+
