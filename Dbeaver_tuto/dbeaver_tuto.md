@@ -71,3 +71,8 @@ dbeaver
 ``` 
 ![Ubuntu terminal](./img/Ubuntu_terminal_fleche.PNG)
 
+![Ubuntu update](./img/Ubuntu_update_fleche.PNG)
+
+![Ubuntu_sample_database](./img/Ubuntu_sample_database_fleche.PNG)
+### On va pouvoir relier DBeaver à notre base postgresql
+
