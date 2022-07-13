@@ -109,4 +109,17 @@ Une petite image pour visualiser :
 
 ![presse-papier mdp](./img/presse-papier_mdp_fleche.PNG)
 
+Ce qui donne :
 
+![Dbeaver connection](./img/Dbeaver_connection_fin_fleche.PNG)
+
+### Je clique sur **Finish** en bas à droite et je peux utiliser ma base
+
+![Dbeaver test base](./img/Dbeaver_operationnel_fleche.PNG)
+
+### Et quand j'ai fini de travailler :
+
+![Datalab arret](./img/Datalab_arret_service_fleche.PNG)
+
+
+# :blush:
