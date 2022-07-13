@@ -65,3 +65,9 @@ J'obtiens un Ubuntu ! Victoire ! :balloon: :penguin: :balloon:
 
 ![Ubuntu lancement terminal](./img/Ubuntu_terminal_lancement_fleche.PNG)
 
+Dans mon terminal, je lance la commande de DBeaver :
+```
+dbeaver
+``` 
+![Ubuntu terminal](./img/Ubuntu_terminal_fleche.PNG)
+
