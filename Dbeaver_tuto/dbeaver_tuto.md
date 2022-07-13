@@ -90,6 +90,23 @@ dbeaver
 ### On récupère les informations nécessaires sur la page "**Mes services**" du Datalab
 ![Datalab mes-services](./img/Datalab_mes_services_fleche.PNG)
 
-### le port par défaut de Postgresql : **5432**. C'est celui qui est utilisé par défaut au lancement du service Postgresql.
+### On a besoin de 5 informations
+
+- le **port** :Postgresql écoute par défaut le port **5432**. C'est celui qui est configuré par défaut au lancement du service Postgresql.
+- **host** : c'est l'hôte, qui est renseigné avant le port dans le readme du service postgresql. Il est de la forme postgresql-xxxxxxxx
+- le **username** : idem, de la forme user-mon_nom_sur_onyxia
+-  **database** : le nom de la base, defaultdb par défaut
+- le **password** : celui de l'utilisateur et de l'administrateur sont les mêmes au lancement du service postgresql.
+
+Une petite image pour visualiser :
+![Postgresql info](./img/Postgresql_readme_fleche.PNG)
+
+### Pour copier-coller le mots de passe et le nom de l'host, il vaut mieux utiliser le presse-papier entre ma fenêtre Datalab et celle du Ubuntu.
+![presse-papier](./img/presse-papier%C3%A8_flechePNG.png)
+
+### Je copie-colle chaque information que je ne veux pas reprendre à la main dans le presse-papier : le nom de l'host et le mot de passe par exemple.
+
+
+![presse-papier mdp](./img/presse-papier_mdp_fleche.PNG)
 
 
