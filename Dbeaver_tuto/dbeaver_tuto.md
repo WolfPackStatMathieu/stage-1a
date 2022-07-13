@@ -1,4 +1,4 @@
-# Tuto : J'apprends à connecter ma base Postgresql à mon Dbeaver ! 
+# Tuto : J'apprends à connecter ma base Postgresql à mon Dbeaver sur Onyxia! 
 
 ![castors juniors](./img/castors%20juniors.jpg)
 
