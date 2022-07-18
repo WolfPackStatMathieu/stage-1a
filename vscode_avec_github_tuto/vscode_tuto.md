@@ -13,6 +13,20 @@ Je sélectionne "Catalogue de services" et je cherche Vscode :
 ### Je lance un VsCode
 ![Datalab Vscode](./img/Datalab_Vscode_fleche.PNG)
 
+
+![Vscode mdp](./img/Vscode_lancement_fleche.PNG)
+
+
+![Vscode ouverture](./img/Vscode_ouverture_fleche.PNG)
+
+![Vscode token](./img/Vscode_welcome_fleche.PNG)
+
+Et voilà le travail  ! Un beau Vscode tout neuf (avec python). 
+
+![Vscode accueil](./img/Vscode_acceuil.PNG)
+
+Mais, Onyxia fonctionne avec la technologie des conteneurs, ce qui pour nous signifie qu'on ne peut pas enregistrer de données dans notre Vscode. Nous allons donc faire comme font tous les informaticiens : **découpler le code des données**. Et pour cela, nous allons utiliser **GitHub**. 
+
 ## Je clone mon projet github sur mon Vscode
 
 ### Je me rends sur mon compte Github
@@ -30,9 +44,19 @@ Je donne un nom à mon dépôt, par exemple "depot_de_toto"
 
 Pour le moment, je ne modifie pas les options, et je déroule la page pour cliquer sur "create repository".
 
+![GitHub repo fin](./img/GitHub_create_repo_fin_fleche.PNG)
 
-### Je clone mon projet sur Vscode avec un token personnel
+Voilà, j'ai un beau repository tout neuf sur mon compte GitHub. Mais moi, je veux pouvoir travailler dessus à partir de Vscode.
 
+Pour pouvoir faire ça, je vais cloner ce dépôt sur mon poste local, puis je synchroniserai les modifications du code entre mon poste local et mon dépôt GitHub.
+
+
+
+## Je clone mon projet sur Vscode avec un token personnel 
+
+![GitHub clone1](./img/GitHub_toto_fleche.PNG)
+
+Je vais dans Vscode, et j'ouvre un terminal.
 
 # Je relance un Vscode, mais avec ma configuration git personnelle
 
