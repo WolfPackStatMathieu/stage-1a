@@ -18,16 +18,27 @@ Je sélectionne "Catalogue de services" et je cherche Vscode :
 ### Je me rends sur mon compte Github
 
 => https://github.com/
-![GitHub](.)
+![GitHub](./img/GitHub_fleche.PNG)
 
-### Je crée un nouveau projet 
+### Je crée un nouveau repository 
+
+![GitHub new repository](./img/GitHub_accueil_fleche.PNG)
+![itHub new repository 2](./img/GitHub_repositories_fleche.PNG)
+
+Je donne un nom à mon dépôt, par exemple "depot_de_toto"
+![GitHub repo](./img/GitHub_creation_repo_fleche.PNG)
+
+Pour le moment, je ne modifie pas les options, et je déroule la page pour cliquer sur "create repository".
+
+
 ### Je clone mon projet sur Vscode avec un token personnel
+
 
 # Je relance un Vscode, mais avec ma configuration git personnelle
 
 
 
-# Je m'entraîne à manipuler Git avec un super tuto
+# Je m'entraîne à manipuler Git avec un super tuto déjà existant
 
 [une présentation Git](https://hackmd.io/AOSXJAJiR4q7GKdbiKcKsw)
 et le [tuto](https://hackmd.io/BdGZF6qOTk2qvzAlvrz_WA) qui va avec. Pour ces tutos, il faudra créer un compte sur Gitlab $\neq$ Github. Mais les deux permettent d'utiliser Git. Il faudra donc modifier vos paramètres d'utilisateurs.
