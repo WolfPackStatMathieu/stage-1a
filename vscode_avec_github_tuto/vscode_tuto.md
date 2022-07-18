@@ -18,6 +18,7 @@ Je sélectionne "Catalogue de services" et je cherche Vscode :
 ### Je me rends sur mon compte Github
 
 => https://github.com/
+![GitHub](.)
 
 ### Je crée un nouveau projet 
 ### Je clone mon projet sur Vscode avec un token personnel
