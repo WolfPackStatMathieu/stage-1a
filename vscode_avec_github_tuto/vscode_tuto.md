@@ -56,7 +56,33 @@ Pour pouvoir faire ça, je vais cloner ce dépôt sur mon poste local, puis je s
 
 ![GitHub clone1](./img/GitHub_toto_fleche.PNG)
 
+### Je génère un token (="jeton mot de passe") qui me permettra d'accéder à mon compte GitHub depuis un terminal :
+
+![GitHub settings1](./img/GitHub_settings_fleche.PNG)
+
+![GitHub settings1](./img/GitHub_settings2_fleche.PNG)
+
+
+![Developper settings](./img/Developper_settings_fleche.PNG)
+
+
+![Developper settings](./img/Developper_settings2_fleche.PNG)
+
+
+![token](./img/Token_fleche.PNG)
+
+
+![token settings](./img/Token_settings_fleche.png)
+
+
+![generate token](./img/Generate_token_fleche.PNG)
+
+
+
+
 Je vais dans Vscode, et j'ouvre un terminal.
+
+
 
 # Je relance un Vscode, mais avec ma configuration git personnelle
 
