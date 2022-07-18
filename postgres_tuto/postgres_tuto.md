@@ -42,7 +42,7 @@ D'abord **Onyxia** : Selon Frédéric, le concepteur initial de la plateforme :
 >*A la base, ça vient du nom de World of Warcraft, c'est une créature qui a la forme d'un dragon et qui est la mère de tous les dragons. Nous, on jouait à Battleground, et dedans, quand tu joues cette carte, elle remplit ton board de plein de petits dragons qui arrivent avec elle. L'idée d'Onyxia, c'est quand un administrateur choisit de mettre Onyxia dans son système d'information, tous ses utilisateurs vont pouvoir utiliser plein de petits services pour faire de la data science. Là ils vont utiliser leur premier petit dragon de l'Insee.* 
 >
 
-![Onyxia mere des dragons](./img/Onyxia_mere_des_dragons.png)
+![Onyxia mere des dragons](./img/Onyxia_originale.jpg)
 
 
 Ok, et pourquoi **SSP Cloud Datalab** ?
