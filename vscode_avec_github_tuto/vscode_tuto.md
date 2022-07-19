@@ -116,10 +116,19 @@ Je repars dans le Datalab et **je crée un nouveau service Vscode en modifiant l
 
 ![Vscode configuration](./img/configuration_Vscode_fleche.PNG)
 
+Il me suffit de remplir **correctement**  :grin: les champs de configurations. Attention au nom du dépôt Git : il prend l'url du dépôt (cf. plus haut dans le tuto)
+
+![config Vscoode Datalab](./img/configuration_datalab_git_fleche.PNG)
+
+![config fin ](./img/config_vscode_fleche.PNG)
+
+
 
 # Je m'entraîne à manipuler Git avec un super tuto déjà existant
 
 [une présentation Git](https://hackmd.io/AOSXJAJiR4q7GKdbiKcKsw)
-et le [tuto](https://hackmd.io/BdGZF6qOTk2qvzAlvrz_WA) qui va avec. Pour ces tutos, il faudra créer un compte sur Gitlab $\neq$ Github. Mais les deux permettent d'utiliser Git. Il faudra donc modifier vos paramètres d'utilisateurs.
+et le [tuto](https://hackmd.io/BdGZF6qOTk2qvzAlvrz_WA) qui va avec. Pour ces tutos, il faudra créer un compte sur Gitlab $\neq$ Github. Mais les deux permettent d'utiliser Git. Il faudra donc modifier vos paramètres d'utilisateurs. L'objectif est de maîtriser les 5 commandes principales (utilisation individuelle) et de savoir gérer les conflits (travail en groupe).
 
 # Je ferme mes services inutilisés sur le Datalab quand j'ai fini de travailler
+
+![Fermeture servicces](./img/Fermeture_services_fleche.PNG)
