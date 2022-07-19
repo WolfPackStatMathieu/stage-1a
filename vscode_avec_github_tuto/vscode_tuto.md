@@ -110,8 +110,11 @@ Je suis donc maintenant content, j'ai accès à mon dépôt Git et à un éditeu
 
 
 # Je relance un Vscode, mais avec ma configuration git personnelle
-Tout ceci était extrêmement sympathique, mais voyons comment éviter de faire toute la manoeuvre dans le terminal du service Vscodeen le préconfigurant.
+Tout ceci était extrêmement sympathique, mais voyons comment éviter de faire toute la manoeuvre dans le terminal du service Vscode en le préconfigurant.
 
+Je repars dans le Datalab et **je crée un nouveau service Vscode en modifiant la configuration**.
+
+![Vscode configuration](./img/configuration_Vscode_fleche.PNG)
 
 
 # Je m'entraîne à manipuler Git avec un super tuto déjà existant
