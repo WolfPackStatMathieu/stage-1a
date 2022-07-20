@@ -108,7 +108,12 @@ git clone https://oauth-key-goes-here@github.com/username/repo.git
 
 Je suis donc maintenant content, j'ai accès à mon dépôt Git et à un éditeur de code disposant de Python 3.10 (au jour où ce tuto est écrit). Le matériel qui supporte tout ceci est hébergé à l'Insee, et utilise les technologies de conteneurs (Docker) et d'orchestrateur de conteneurs (Kubernetes). **J'ai donc largement de quoi faire mes TP/projets en 1A.** 
 
+**A noter** : Cette manière de faire depuis un terminal dans le service Vscode est sécurisée, car le token (c'est-à-dire mon identité) n'est pas stocké dans le Datalab. 
+> S'ils stockent leur token sur Onyxia, j'y ai accès. C'est pour ça que je ne stocke jamais mon token GitHub, et j'utilise la connexion dans le terminal même s'il faut que je tape la commande.
+>
+> -- <cite>Le créateur de la plateforme Onyxia</cite>
 
+Nous allons voir une façon plus "confortable" mais qui demande de stocker le token. 
 # Je relance un Vscode, mais avec ma configuration git personnelle
 Tout ceci était extrêmement sympathique, mais voyons comment éviter de faire toute la manoeuvre dans le terminal du service Vscode en le préconfigurant.
 
@@ -122,7 +127,7 @@ Il me suffit de remplir **correctement**  :grin: les champs de configurations. A
 
 ![config fin ](./img/config_vscode_fleche.PNG)
 
-
+Bon à savoir : Il est possible de stocker de façon permanente ses informations de connexion à GitHub dans Mon compte > Services externes. Mais, comme dit auparavant, ce n'est pas une bonne pratique.
 
 # Je m'entraîne à manipuler Git avec un super tuto déjà existant
 
