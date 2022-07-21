@@ -25,7 +25,7 @@ Et voilà le travail  ! Un beau Vscode tout neuf (avec python).
 
 ![Vscode accueil](./img/Vscode_acceuil.PNG)
 
-Mais, Onyxia fonctionne avec la technologie des conteneurs, ce qui pour nous signifie qu'on ne peut pas enregistrer de données dans notre Vscode. Nous allons donc faire comme font tous les informaticiens : **découpler le code des données**. Et pour cela, nous allons utiliser **GitHub**. 
+Mais, Onyxia fonctionne avec la technologie des conteneurs, ce qui pour nous signifie que le code sera supprimé à l'extinction du service. Nous allons donc faire comme font tous les informaticiens : **découpler le code de l'environnement d'exécution**. Et pour cela, nous allons utiliser **GitHub**. 
 
 ## Je clone mon projet github sur mon Vscode
 
@@ -48,7 +48,7 @@ Pour le moment, je ne modifie pas les options, et je déroule la page pour cliqu
 
 Voilà, j'ai un beau repository tout neuf sur mon compte GitHub. Mais moi, je veux pouvoir travailler dessus à partir de Vscode.
 
-Pour pouvoir faire ça, je vais cloner ce dépôt sur mon poste local, puis je synchroniserai les modifications du code entre mon poste local et mon dépôt GitHub.
+Pour pouvoir faire ça, je vais cloner ce dépôt sur le service que je viens de créer, puis je synchroniserai les modifications du code entre ce service et mon dépôt GitHub.
 
 
 
@@ -121,7 +121,7 @@ Je repars dans le Datalab et **je crée un nouveau service Vscode en modifiant l
 
 ![Vscode configuration](./img/configuration_Vscode_fleche.PNG)
 
-Il me suffit de remplir **correctement**  :grin: les champs de configurations. Attention au nom du dépôt Git : il prend l'url du dépôt (cf. plus haut dans le tuto)
+Il me suffit de remplir **correctement**  :grin: les champs de configurations. Attention au nom du dépôt Git : il prend le lien utilisé pour cloner (cf. plus haut dans le tuto).
 
 ![config Vscoode Datalab](./img/configuration_datalab_git_fleche.PNG)
 
