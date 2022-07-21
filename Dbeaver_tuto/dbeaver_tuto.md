@@ -2,7 +2,7 @@
 
 ![castors juniors](./img/castors%20juniors.jpg)
 
-Dans ce tuto, j'apprends à travailler sur une base Postgresql à partir du logiciel DBeaver, au sein de la plateforme [Onyxia](https://datalab.sspcloud.fr). (pour une présentation d'Onyxia et la façon de s'y connecter, voir [ici](https://www.example.com))
+Dans ce tuto, j'apprends à travailler sur une base Postgresql à partir du logiciel DBeaver, au sein de la plateforme [Onyxia](https://datalab.sspcloud.fr). (pour une présentation d'Onyxia et la façon de s'y connecter, voir [ici](https://github.com/WolfPackStatMathieu/stage-1a/blob/main/postgres_tuto/postgres_tuto.md))
 
 ## **DBeaver** : Qu'est-ce que c'est ?
 ![Dbeaver logo](./img/castor%20Dbeaver.png)
@@ -69,6 +69,7 @@ Dans mon terminal, je lance la commande de DBeaver :
 ```
 dbeaver
 ``` 
+Attention, si je supprime le terminal, mon Dbeaver s'arrêtera. (Je peux aussi lancer Dbeaver en allant le chercher dans les applications, mais on avait dit qu'on était des hackers :sailboat: :skull: :wink:)
 ![Ubuntu terminal](./img/Ubuntu_terminal_fleche.PNG)
 
 ![Ubuntu update](./img/Ubuntu_update_fleche.PNG)
