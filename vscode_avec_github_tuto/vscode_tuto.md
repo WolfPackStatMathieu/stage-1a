@@ -134,7 +134,7 @@ Bon à savoir : Il est possible de stocker de façon permanente ses informations
 Les deux premiers liens pour ceux qui veulent mettre la main à la pâte:
 [une présentation Git](https://hackmd.io/AOSXJAJiR4q7GKdbiKcKsw)
 et le [tuto](https://hackmd.io/BdGZF6qOTk2qvzAlvrz_WA) qui va avec. Pour ces tutos, il faudra créer un compte sur Gitlab $\neq$ Github. Mais les deux permettent d'utiliser Git. Il faudra donc modifier vos paramètres d'utilisateurs. L'objectif est de maîtriser les 5 commandes principales (utilisation individuelle) et de savoir gérer les conflits (travail en groupe).
-Une autre présentation Git, un peu plus détaillée, qui est une partie d'un cours à l'Ensae (:revolving_hearts:) sur les bonnes pratiques de développement. 
+Une [autre présentation Git](https://ensae-reproductibilite.netlify.app/git/), un peu plus détaillée, qui est une partie d'un cours à l'Ensae (:revolving_hearts:) sur les bonnes pratiques de développement. 
 
 # Je ferme mes services inutilisés sur le Datalab quand j'ai fini de travailler
 
