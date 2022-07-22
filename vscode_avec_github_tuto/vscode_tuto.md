@@ -2,15 +2,14 @@
 **OBJECTIF** Obtenir un environnement de développement standard (Vscode + python) pour les TP d'algorithmique, de programmation orientée objet et de projet informatique en 1A. 
 
 
-# Table of contents
+# Sommaire
 
-- [Tuto : J'apprends à utiliser Vscode sur le Datalab en sauvegardant mon code sur Github](#tuto--japprends--utiliser-vscode-sur-le-datalab-en-sauvegardant-mon-code-sur-github)
   - [Je lance un service Vscode](#je-lance-un-service-vscode)
   - [Je clone mon projet github sur mon Vscode](#je-clone-mon-projet-github-sur-mon-vscode)
   - [Je clone mon projet sur Vscode avec un token personnel](#je-clone-mon-projet-sur-vscode-avec-un-token-personnel)
 - [Je relance un Vscode, mais avec ma configuration git personnelle](#je-relance-un-vscode-mais-avec-ma-configuration-git-personnelle)
-- [Je m'entraîne à manipuler Git avec un super tuto déjà existant](#je-mentrane--manipuler-git-avec-un-super-tuto-dj-existant)
-- [Je ferme mes services inutilisés sur le Datalab quand j'ai fini de travailler](#je-ferme-mes-services-inutiliss-sur-le-datalab-quand-jai-fini-de-travailler)
+- [Je m'entraîne à manipuler Git avec un super tuto déjà existant](#je-mentraîne-à-manipuler-git-avec-un-super-tuto-déjà-existant)
+- [Je ferme mes services inutilisés sur le Datalab quand j'ai fini de travailler](#je-ferme-mes-services-inutilisés-sur-le-datalab-quand-jai-fini-de-travailler)
 
 ## Je lance un service Vscode
 
